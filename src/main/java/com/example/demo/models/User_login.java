@@ -1,4 +1,4 @@
-package com.example.demo.sign_in.models;
+package com.example.demo.models;
 
 import javax.persistence.*;
 
@@ -22,6 +22,11 @@ public class User_login {
 		this.mot_passe = mot_passe;
 		this.mot_passe_confirmation = mot_passe_confirmation;
 	}
+	public User_login(String username) {
+		this.username=username;
+	}
+	public User_login() {
+	}
 
 	public long getId() {
 		return id;
@@ -31,7 +36,7 @@ public class User_login {
 		this.id = id;
 	}
 
-	public String getUsername() {
+	public  String getUsername() {
 		return username;
 	}
 

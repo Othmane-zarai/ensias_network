@@ -1,6 +1,8 @@
 package com.example.demo.sign_in.service;
-import com.example.demo.sign_in.models.User_login;
+import org.springframework.stereotype.Repository;
 
+import com.example.demo.models.User_login;
+@Repository
 public interface user_service {
     void save(User_login user);
 

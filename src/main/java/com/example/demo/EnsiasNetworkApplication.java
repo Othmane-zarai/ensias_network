@@ -1,4 +1,4 @@
-package com.example.demo.sign_in;
+package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -13,5 +13,4 @@ public class EnsiasNetworkApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EnsiasNetworkApplication.class, args);
 	}
-
 }

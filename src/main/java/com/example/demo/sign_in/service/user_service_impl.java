@@ -1,8 +1,9 @@
 package com.example.demo.sign_in.service;
 
 
-import com.example.demo.sign_in.models.User_login;
-import com.example.demo.sign_in.repository.User_repository;
+import com.example.demo.models.User_login;
+import com.example.demo.repository.User_repository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
